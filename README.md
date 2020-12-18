@@ -7,7 +7,7 @@ Explore different password storage schemes and experience how an attacker can cr
 
 # 1. Brute force attack
 Suppose you know that the user aisha has a password consisting of 4 characters. Passwords consist
-of upper case letters ```“A”-“Z”```, lower case letters ```“a”-“z”``` and numbers ```“0”-“9”```. You are able to see
+of upper case letters ```A-Z```, lower case letters ```a-z``` and numbers ```0-9```. You are able to see
 aisha’s password hash in the publically readable /etc/passwd file (assuming an old Unix
 system). Your program will read aisha’s password hash in hexadecimal as input and should find her
 password.
